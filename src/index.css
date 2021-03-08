@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap');
+.profil-picture {
+border-radius: 50%;
+  width: 10rem;
+  margin-top: 3rem;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.name {
+  color: #ff7171;
+  font-weight: 900;
+  font-family: Redressed;
+}
+.adress {
+  font-family: Recursive;
+  padding-top: -1rem;
+  margin-top: -1rem;
+  color: #e94b4b;
+  margin-bottom: 30rem;
+}
+.App {
+  background-color: #ffe8e8;
+  text-align: center;
 }
